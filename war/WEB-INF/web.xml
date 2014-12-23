@@ -3,7 +3,7 @@
 xmlns="http://java.sun.com/xml/ns/javaee"
 xmlns:web="http://java.sun.com/xml/ns/javaee/web-app_2_5.xsd"
 xsi:schemaLocation="http://java.sun.com/xml/ns/javaee
-http://java.sun.com/xml/ns/javaee/web-app_2_5.xsd" version="2.5">
+http://java.sun.com/xml/ns/javaee/web-app_2_5.xsd" version="3">
 	<servlet>
 		<servlet-name>Google_App_Engine_project</servlet-name>
 		<servlet-class>com.myorg.javacourse.Google_App_Engine_projectServlet</servlet-class>
