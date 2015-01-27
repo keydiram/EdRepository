@@ -10,7 +10,10 @@ public class Stock {
 	private String symbol;
 	private float ask,bid;
 	private Date date;
-	
+	public static final int BUY=0;
+	public static final int SELL=1;
+	public static final int REMOVE=2;
+	public static final int HOLD=3;
 	
 
 	public Stock(String symbol, float ask, float bid) {
