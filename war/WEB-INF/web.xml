@@ -4,29 +4,13 @@ xmlns="http://java.sun.com/xml/ns/javaee"
 xmlns:web="http://java.sun.com/xml/ns/javaee/web-app_2_5.xsd"
 xsi:schemaLocation="http://java.sun.com/xml/ns/javaee
 http://java.sun.com/xml/ns/javaee/web-app_2_5.xsd" version="6">
-	<servlet>
-		<servlet-name>Servlet</servlet-name>
-		<servlet-class>com.myorg.javacourse.GoogleAppEngineServlet</servlet-class>
-	</servlet>
 	
-	<servlet-mapping>
-		<servlet-name>Servlet</servlet-name>
-		<url-pattern>/servlet</url-pattern>
-	</servlet-mapping>
 	
-		<servlet>
-		<servlet-name>NewServlet</servlet-name>
-		<servlet-class>com.myorg.javacourse.NewServlet</servlet-class>
-	</servlet>
-	
-	<servlet-mapping>
-		<servlet-name>NewServlet</servlet-name>
-		<url-pattern>/newservlet</url-pattern>
-	</servlet-mapping>
+		
 	
 	<servlet>
 		<servlet-name>StockServlet</servlet-name>
-		<servlet-class>com.myorg.javacourse.StockServlet</servlet-class>
+		<servlet-class>com.myorg.javacourse.servlet.StockServlet</servlet-class>
 	</servlet>
 	
 	<servlet-mapping>
